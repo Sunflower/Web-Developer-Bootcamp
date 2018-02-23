@@ -1,0 +1,53 @@
+
+h1[class="cool-text"] {
+	color: rgba(200,50,230,0.8);
+	font-family: "Amatic SC", sans_serif;
+}
+
+main p .cool-text {
+	color: #0ff;
+	font-family: Lobster, Roboto, sans_serif;
+	text-decoration: line-through wavy white;
+}
+
+main p {
+	font-size: 15px;
+	font-family: monospace;
+	width: 1000px;
+	border: 12px dashed green;
+}
+
+.nice-border {
+	border-width: 20px;
+	border-color: purple;
+	border-style: groove;
+	border-radius: 100%;
+}
+
+.orange-bg {
+	background-color: rgb(218, 112, 214) !important;
+}
+
+#neat-form {
+	font-size: 25px;
+	color: blue;
+}
+
+p + table {
+	background: silver;
+}
+
+
+body {
+	background: url(https://content.jwplatform.com/thumbs/1QJIwfDj-720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body:hover {
+	color: gold;
+}
+
+p:nth-of-type(even) {
+	background: purple;
+}
