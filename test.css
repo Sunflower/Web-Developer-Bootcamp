@@ -12,9 +12,17 @@ main p .cool-text {
 
 main p {
 	font-size: 15px;
-	font-family: monospace;
-	width: 1000px;
+	font-family: "Indie Flower", monospace;
 	border: 12px dashed green;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+main p:nth-of-type(even) {
+	width: 500px;
+	height:2000px;
+	padding: 100px 0px 0px 20px;
+	margin: 60px auto;
 }
 
 .nice-border {
@@ -22,6 +30,10 @@ main p {
 	border-color: purple;
 	border-style: groove;
 	border-radius: 100%;
+}
+
+p:nth-of-type(odd) {
+	text-align: right;
 }
 
 .orange-bg {
